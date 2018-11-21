@@ -12,6 +12,8 @@
 		88AFB85621A500BF00C2F380 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88AFB85421A500BF00C2F380 /* Main.storyboard */; };
 		88AFB85821A500BF00C2F380 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88AFB85721A500BF00C2F380 /* Assets.xcassets */; };
 		88AFB85B21A500C000C2F380 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88AFB85921A500C000C2F380 /* LaunchScreen.storyboard */; };
+		88AFB86421A53CA900C2F380 /* YAOriginalFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AFB86321A53CA900C2F380 /* YAOriginalFile.swift */; };
+		88AFB86721A53DEF00C2F380 /* YANewFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AFB86621A53DEF00C2F380 /* YANewFile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		88AFB85721A500BF00C2F380 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88AFB85A21A500C000C2F380 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88AFB85C21A500C000C2F380 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88AFB86321A53CA900C2F380 /* YAOriginalFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YAOriginalFile.swift; sourceTree = "<group>"; };
+		88AFB86621A53DEF00C2F380 /* YANewFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YANewFile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		88AFB84F21A500BF00C2F380 /* 15命令模式 */ = {
 			isa = PBXGroup;
 			children = (
+				88AFB86221A53C9400C2F380 /* Original */,
+				88AFB86521A53DC800C2F380 /* New */,
 				88AFB85021A500BF00C2F380 /* AppDelegate.swift */,
 				88AFB85221A500BF00C2F380 /* ViewController.swift */,
 				88AFB85421A500BF00C2F380 /* Main.storyboard */,
@@ -62,6 +68,22 @@
 				88AFB85C21A500C000C2F380 /* Info.plist */,
 			);
 			path = "15命令模式";
+			sourceTree = "<group>";
+		};
+		88AFB86221A53C9400C2F380 /* Original */ = {
+			isa = PBXGroup;
+			children = (
+				88AFB86321A53CA900C2F380 /* YAOriginalFile.swift */,
+			);
+			path = Original;
+			sourceTree = "<group>";
+		};
+		88AFB86521A53DC800C2F380 /* New */ = {
+			isa = PBXGroup;
+			children = (
+				88AFB86621A53DEF00C2F380 /* YANewFile.swift */,
+			);
+			path = New;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -90,6 +112,7 @@
 		88AFB84521A500BF00C2F380 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = YA;
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = xygj;
@@ -137,6 +160,8 @@
 			files = (
 				88AFB85321A500BF00C2F380 /* ViewController.swift in Sources */,
 				88AFB85121A500BF00C2F380 /* AppDelegate.swift in Sources */,
+				88AFB86721A53DEF00C2F380 /* YANewFile.swift in Sources */,
+				88AFB86421A53CA900C2F380 /* YAOriginalFile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
