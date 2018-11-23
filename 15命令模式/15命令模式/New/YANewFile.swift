@@ -12,6 +12,17 @@ import Foundation
  如果修改NewFunctionButton的onClick方法, 只需要增加具体的命令类和消息接收者就可以了, 不需要修改消息发送者的源码
  */
 
+extension Array {
+    mutating func remote(of item: Element) {
+        for (index, indexItem) in self.enumerated() {
+            let obj = indexItem as AnyObject
+            if obj.isEqual(item) {
+                remove(at: index)
+            }
+        }
+    }
+}
+
 // 消息发送者
 class NewFunctionButton {
     
@@ -28,11 +39,7 @@ class NewFunctionButton {
     
     func deleteCommand(_ command: Command) {
         
-        for (index, item) in commandsArray.enumerated() {
-            if command.isEqual(item) {
-                commandsArray.remove(at: index)
-            }
-        }
+        commandsArray.remote(of: command)
         print(commandsArray)
     }
     

@@ -25,6 +25,10 @@ class ViewController: UIViewController {
         可以创建一个命令类(抽象层), 按钮action(消息发送者)针对命令类(抽象类)编程, 命令类负责将具体的事件转发给消息接收者, 让消息接受者处理事件
         对于按钮action(消息发送者)而言, 不需要知道消息接收者是谁
      
+     使用场景:
+        1. 需要将请求调用者和请求接收者解耦, 调用者和接收者不直接交互
+        2. 请求队列的使用
+     
      */
 
     override func viewDidLoad() {
@@ -34,6 +38,15 @@ class ViewController: UIViewController {
         
 //        NewFunctionButton(command: HelpCommand()).onClick()
 //        NewFunctionButton(command: CaptureCommand()).onClick()
+        
+        let command1 = HelpCommand()
+        let command2 = HelpCommand()
+        let command3 = HelpCommand()
+        let functionButton = NewFunctionButton()
+        functionButton.addCommand(command1)
+        functionButton.addCommand(command2)
+        functionButton.addCommand(command3)
+        functionButton.deleteCommand(command3)
     }
 
 }
