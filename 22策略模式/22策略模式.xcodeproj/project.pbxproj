@@ -7,29 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		88AB7C3B21ABC0240073D00F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AB7C3A21ABC0240073D00F /* AppDelegate.swift */; };
-		88AB7C3D21ABC0240073D00F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AB7C3C21ABC0240073D00F /* ViewController.swift */; };
-		88AB7C4021ABC0240073D00F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88AB7C3E21ABC0240073D00F /* Main.storyboard */; };
-		88AB7C4221ABC0260073D00F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88AB7C4121ABC0260073D00F /* Assets.xcassets */; };
-		88AB7C4521ABC0260073D00F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88AB7C4321ABC0260073D00F /* LaunchScreen.storyboard */; };
-		88AB7C4D21ABC6E20073D00F /* YAAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AB7C4C21ABC6E20073D00F /* YAAccount.swift */; };
-		88AB7C4F21ABC6ED0073D00F /* YAAccountState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AB7C4E21ABC6ED0073D00F /* YAAccountState.swift */; };
+		88AB7C6321ABE76F0073D00F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AB7C6221ABE76F0073D00F /* AppDelegate.swift */; };
+		88AB7C6521ABE76F0073D00F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AB7C6421ABE76F0073D00F /* ViewController.swift */; };
+		88AB7C6821ABE76F0073D00F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88AB7C6621ABE76F0073D00F /* Main.storyboard */; };
+		88AB7C6A21ABE7700073D00F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88AB7C6921ABE7700073D00F /* Assets.xcassets */; };
+		88AB7C6D21ABE7700073D00F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88AB7C6B21ABE7700073D00F /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		88AB7C3721ABC0240073D00F /* 21状态模式.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "21状态模式.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		88AB7C3A21ABC0240073D00F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		88AB7C3C21ABC0240073D00F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		88AB7C3F21ABC0240073D00F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		88AB7C4121ABC0260073D00F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		88AB7C4421ABC0260073D00F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		88AB7C4621ABC0260073D00F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		88AB7C4C21ABC6E20073D00F /* YAAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YAAccount.swift; sourceTree = "<group>"; };
-		88AB7C4E21ABC6ED0073D00F /* YAAccountState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YAAccountState.swift; sourceTree = "<group>"; };
+		88AB7C5F21ABE76F0073D00F /* 22策略模式.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "22策略模式.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88AB7C6221ABE76F0073D00F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		88AB7C6421ABE76F0073D00F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		88AB7C6721ABE76F0073D00F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		88AB7C6921ABE7700073D00F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		88AB7C6C21ABE7700073D00F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		88AB7C6E21ABE7700073D00F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		88AB7C3421ABC0240073D00F /* Frameworks */ = {
+		88AB7C5C21ABE76F0073D00F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,61 +35,59 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		88AB7C2E21ABC0240073D00F = {
+		88AB7C5621ABE76F0073D00F = {
 			isa = PBXGroup;
 			children = (
-				88AB7C3921ABC0240073D00F /* 21状态模式 */,
-				88AB7C3821ABC0240073D00F /* Products */,
+				88AB7C6121ABE76F0073D00F /* 22策略模式 */,
+				88AB7C6021ABE76F0073D00F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		88AB7C3821ABC0240073D00F /* Products */ = {
+		88AB7C6021ABE76F0073D00F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				88AB7C3721ABC0240073D00F /* 21状态模式.app */,
+				88AB7C5F21ABE76F0073D00F /* 22策略模式.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		88AB7C3921ABC0240073D00F /* 21状态模式 */ = {
+		88AB7C6121ABE76F0073D00F /* 22策略模式 */ = {
 			isa = PBXGroup;
 			children = (
-				88AB7C3A21ABC0240073D00F /* AppDelegate.swift */,
-				88AB7C3C21ABC0240073D00F /* ViewController.swift */,
-				88AB7C4C21ABC6E20073D00F /* YAAccount.swift */,
-				88AB7C4E21ABC6ED0073D00F /* YAAccountState.swift */,
-				88AB7C3E21ABC0240073D00F /* Main.storyboard */,
-				88AB7C4121ABC0260073D00F /* Assets.xcassets */,
-				88AB7C4321ABC0260073D00F /* LaunchScreen.storyboard */,
-				88AB7C4621ABC0260073D00F /* Info.plist */,
+				88AB7C6221ABE76F0073D00F /* AppDelegate.swift */,
+				88AB7C6421ABE76F0073D00F /* ViewController.swift */,
+				88AB7C6621ABE76F0073D00F /* Main.storyboard */,
+				88AB7C6921ABE7700073D00F /* Assets.xcassets */,
+				88AB7C6B21ABE7700073D00F /* LaunchScreen.storyboard */,
+				88AB7C6E21ABE7700073D00F /* Info.plist */,
 			);
-			path = "21状态模式";
+			path = "22策略模式";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		88AB7C3621ABC0240073D00F /* 21状态模式 */ = {
+		88AB7C5E21ABE76F0073D00F /* 22策略模式 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 88AB7C4921ABC0260073D00F /* Build configuration list for PBXNativeTarget "21状态模式" */;
+			buildConfigurationList = 88AB7C7121ABE7700073D00F /* Build configuration list for PBXNativeTarget "22策略模式" */;
 			buildPhases = (
-				88AB7C3321ABC0240073D00F /* Sources */,
-				88AB7C3421ABC0240073D00F /* Frameworks */,
-				88AB7C3521ABC0240073D00F /* Resources */,
+				88AB7C5B21ABE76F0073D00F /* Sources */,
+				88AB7C5C21ABE76F0073D00F /* Frameworks */,
+				88AB7C5D21ABE76F0073D00F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "21状态模式";
-			productName = "21状态模式";
-			productReference = 88AB7C3721ABC0240073D00F /* 21状态模式.app */;
+			name = "22策略模式";
+			productName = "22策略模式";
+			productReference = 88AB7C5F21ABE76F0073D00F /* 22策略模式.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		88AB7C2F21ABC0240073D00F /* Project object */ = {
+		88AB7C5721ABE76F0073D00F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = YA;
@@ -101,12 +95,12 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = xygj;
 				TargetAttributes = {
-					88AB7C3621ABC0240073D00F = {
+					88AB7C5E21ABE76F0073D00F = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
 			};
-			buildConfigurationList = 88AB7C3221ABC0240073D00F /* Build configuration list for PBXProject "21状态模式" */;
+			buildConfigurationList = 88AB7C5A21ABE76F0073D00F /* Build configuration list for PBXProject "22策略模式" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,56 +108,54 @@
 				en,
 				Base,
 			);
-			mainGroup = 88AB7C2E21ABC0240073D00F;
-			productRefGroup = 88AB7C3821ABC0240073D00F /* Products */;
+			mainGroup = 88AB7C5621ABE76F0073D00F;
+			productRefGroup = 88AB7C6021ABE76F0073D00F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				88AB7C3621ABC0240073D00F /* 21状态模式 */,
+				88AB7C5E21ABE76F0073D00F /* 22策略模式 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		88AB7C3521ABC0240073D00F /* Resources */ = {
+		88AB7C5D21ABE76F0073D00F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88AB7C4521ABC0260073D00F /* LaunchScreen.storyboard in Resources */,
-				88AB7C4221ABC0260073D00F /* Assets.xcassets in Resources */,
-				88AB7C4021ABC0240073D00F /* Main.storyboard in Resources */,
+				88AB7C6D21ABE7700073D00F /* LaunchScreen.storyboard in Resources */,
+				88AB7C6A21ABE7700073D00F /* Assets.xcassets in Resources */,
+				88AB7C6821ABE76F0073D00F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		88AB7C3321ABC0240073D00F /* Sources */ = {
+		88AB7C5B21ABE76F0073D00F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88AB7C4D21ABC6E20073D00F /* YAAccount.swift in Sources */,
-				88AB7C3D21ABC0240073D00F /* ViewController.swift in Sources */,
-				88AB7C3B21ABC0240073D00F /* AppDelegate.swift in Sources */,
-				88AB7C4F21ABC6ED0073D00F /* YAAccountState.swift in Sources */,
+				88AB7C6521ABE76F0073D00F /* ViewController.swift in Sources */,
+				88AB7C6321ABE76F0073D00F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		88AB7C3E21ABC0240073D00F /* Main.storyboard */ = {
+		88AB7C6621ABE76F0073D00F /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				88AB7C3F21ABC0240073D00F /* Base */,
+				88AB7C6721ABE76F0073D00F /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		88AB7C4321ABC0260073D00F /* LaunchScreen.storyboard */ = {
+		88AB7C6B21ABE7700073D00F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				88AB7C4421ABC0260073D00F /* Base */,
+				88AB7C6C21ABE7700073D00F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -171,7 +163,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		88AB7C4721ABC0260073D00F /* Debug */ = {
+		88AB7C6F21ABE7700073D00F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -232,7 +224,7 @@
 			};
 			name = Debug;
 		};
-		88AB7C4821ABC0260073D00F /* Release */ = {
+		88AB7C7021ABE7700073D00F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -287,34 +279,34 @@
 			};
 			name = Release;
 		};
-		88AB7C4A21ABC0260073D00F /* Debug */ = {
+		88AB7C7221ABE7700073D00F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "21状态模式/Info.plist";
+				INFOPLIST_FILE = "22策略模式/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nbapi.testttt.-1----";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nbapi.testttt.-2----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		88AB7C4B21ABC0260073D00F /* Release */ = {
+		88AB7C7321ABE7700073D00F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "21状态模式/Info.plist";
+				INFOPLIST_FILE = "22策略模式/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nbapi.testttt.-1----";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nbapi.testttt.-2----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -324,25 +316,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		88AB7C3221ABC0240073D00F /* Build configuration list for PBXProject "21状态模式" */ = {
+		88AB7C5A21ABE76F0073D00F /* Build configuration list for PBXProject "22策略模式" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				88AB7C4721ABC0260073D00F /* Debug */,
-				88AB7C4821ABC0260073D00F /* Release */,
+				88AB7C6F21ABE7700073D00F /* Debug */,
+				88AB7C7021ABE7700073D00F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		88AB7C4921ABC0260073D00F /* Build configuration list for PBXNativeTarget "21状态模式" */ = {
+		88AB7C7121ABE7700073D00F /* Build configuration list for PBXNativeTarget "22策略模式" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				88AB7C4A21ABC0260073D00F /* Debug */,
-				88AB7C4B21ABC0260073D00F /* Release */,
+				88AB7C7221ABE7700073D00F /* Debug */,
+				88AB7C7321ABE7700073D00F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 88AB7C2F21ABC0240073D00F /* Project object */;
+	rootObject = 88AB7C5721ABE76F0073D00F /* Project object */;
 }
