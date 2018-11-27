@@ -16,6 +16,9 @@ protocol YANewChartProtocol {
     
     // 擦除
     func erase()
+    
+    // 也可以使用抽象工厂, 将工厂的类方法写入抽象对象中, 这里不做演示了.
+//    static func createNewChart()
 }
 
 class YANewPieChart: YANewChartProtocol {

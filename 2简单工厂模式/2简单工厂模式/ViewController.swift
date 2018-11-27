@@ -35,6 +35,7 @@ class ViewController: UIViewController {
         pieChart.display()
         
         // MARK: - 简单工厂模式
+        // 客户端只需要关注传入的参数, 而不需要知道创建的类名, 只需要消费"产品"就可以了, n不需要知道创建细节
         let pieChart2 = YANewFactory.createChart(byType: .YAChartTypePie)
         pieChart2.draw()
 
