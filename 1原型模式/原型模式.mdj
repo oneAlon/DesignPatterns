@@ -569,17 +569,18 @@
 									"model": {
 										"$ref": "AAAAAAFnUuVuc6jMciE="
 									},
-									"visible": false,
 									"font": "Arial;13;0",
-									"left": 559,
+									"left": 517,
 									"top": 152,
+									"width": 85.591796875,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
 									"hostEdge": {
 										"$ref": "AAAAAAFnUuVuc6jNYcA="
 									},
-									"edgePosition": 1
+									"edgePosition": 1,
+									"text": "+实现协议方法"
 								},
 								{
 									"_type": "EdgeLabelView",
@@ -843,6 +844,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFnUuVNnaiieCM="
 							},
+							"name": "实现协议方法",
 							"source": {
 								"$ref": "AAAAAAFnUuVNnaiieCM="
 							},

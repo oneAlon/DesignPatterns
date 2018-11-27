@@ -8,9 +8,8 @@
 
 import UIKit
 
-enum YAOriginalChartType {
-    case YAOriginalChartPie // 饼状图
-    case YAOriginalChartHistogram // 柱状图
-    case YAOriginalChartLine // 折线图
-    case YAOriginalChartUnKnow 
+enum YAChartType {
+    case YAChartTypePie // 饼状图
+    case YAChartTypeHistogram // 柱状图
+    case YAChartTypeLine // 折线图
 }

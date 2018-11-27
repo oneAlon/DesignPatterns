@@ -11,8 +11,10 @@ import UIKit
 // 抽象类(也就是协议)
 protocol YANewChartProtocol {
     
-    func display()
+    // 绘制
     func draw()
+    
+    // 擦除
     func erase()
 }
 
@@ -20,10 +22,6 @@ class YANewPieChart: YANewChartProtocol {
     
     init() {
         print("创建-饼状图")
-    }
-    
-    func display() {
-        print("显示-饼状图")
     }
     
     func draw() {
@@ -41,10 +39,6 @@ class YANewHistogramChart: YANewChartProtocol {
         print("创建-柱状图")
     }
     
-    func display() {
-        print("显示-柱状图")
-    }
-    
     func draw() {
         print("柱状图-draw")
     }
@@ -58,10 +52,6 @@ class YANewLineChart: YANewChartProtocol {
     
     init() {
         print("创建-折线图")
-    }
-    
-    func display() {
-        print("显示-折线图")
     }
     
     func draw() {

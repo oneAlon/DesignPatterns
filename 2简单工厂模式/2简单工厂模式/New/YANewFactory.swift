@@ -10,10 +10,6 @@ import UIKit
 
 class YANewFactory: NSObject {
     
-    enum chartError: Error {
-        case UnSupportedShapeException
-    }
-    
     /*
      优点:
         将职责进行分离, 工厂类只负责创建(具体图表的显示功能, 也就是使用, 要去其他类处理)
@@ -21,18 +17,18 @@ class YANewFactory: NSObject {
      
      缺点:
         工厂类使用静态方法通过传入的参数创建不同的产品, 如果新加入产品, 就必须修改工厂类的源码, 违反了开闭原则.
+        工厂类的职责很重, 如果工厂类不能正常工作, 整个系统都不能正常工作
+        扩展困难
      */
-    class func getChart(withType type: YAOriginalChartType) throws -> YANewChartProtocol {
+    class func createChart(byType type: YAChartType) -> YANewChartProtocol {
         var chart: YANewChartProtocol
         switch type {
-        case .YAOriginalChartPie:
+        case .YAChartTypePie:
             chart = YANewPieChart()
-        case .YAOriginalChartHistogram:
+        case .YAChartTypeHistogram:
             chart = YANewHistogramChart()
-        case .YAOriginalChartLine:
+        case .YAChartTypeLine:
             chart = YANewLineChart()
-        case .YAOriginalChartUnKnow:
-            throw chartError.UnSupportedShapeException
         }
         return chart
     }
