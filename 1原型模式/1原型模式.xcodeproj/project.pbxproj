@@ -13,7 +13,6 @@
 		88FEBCD821995C010037BB02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88FEBCD721995C010037BB02 /* Assets.xcassets */; };
 		88FEBCDB21995C010037BB02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88FEBCD921995C010037BB02 /* LaunchScreen.storyboard */; };
 		88FEBCE321995C4C0037BB02 /* YAPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FEBCE221995C4C0037BB02 /* YAPerson.swift */; };
-		88FEBCE7219962670037BB02 /* YAPersonProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FEBCE6219962670037BB02 /* YAPersonProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +24,6 @@
 		88FEBCDA21995C010037BB02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88FEBCDC21995C010037BB02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88FEBCE221995C4C0037BB02 /* YAPerson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YAPerson.swift; sourceTree = "<group>"; };
-		88FEBCE6219962670037BB02 /* YAPersonProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YAPersonProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +58,6 @@
 			children = (
 				88FEBCD021995BFF0037BB02 /* AppDelegate.swift */,
 				88FEBCD221995BFF0037BB02 /* ViewController.swift */,
-				88FEBCE6219962670037BB02 /* YAPersonProtocol.swift */,
 				88FEBCE221995C4C0037BB02 /* YAPerson.swift */,
 				88FEBCD421995BFF0037BB02 /* Main.storyboard */,
 				88FEBCD721995C010037BB02 /* Assets.xcassets */,
@@ -99,7 +96,7 @@
 				CLASSPREFIX = YA;
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
-				ORGANIZATIONNAME = xygj;
+				ORGANIZATIONNAME = OneAlon;
 				TargetAttributes = {
 					88FEBCCC21995BFF0037BB02 = {
 						CreatedOnToolsVersion = 10.1;
@@ -142,7 +139,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88FEBCE7219962670037BB02 /* YAPersonProtocol.swift in Sources */,
 				88FEBCE321995C4C0037BB02 /* YAPerson.swift in Sources */,
 				88FEBCD321995BFF0037BB02 /* ViewController.swift in Sources */,
 				88FEBCD121995BFF0037BB02 /* AppDelegate.swift in Sources */,

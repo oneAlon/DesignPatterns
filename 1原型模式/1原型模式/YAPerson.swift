@@ -2,11 +2,24 @@
 //  YAPerson.swift
 //  1原型模式
 //
-//  Created by xygj on 2018/11/12.
-//  Copyright © 2018 xygj. All rights reserved.
+//  Created by OneAlon on 2018/11/12.
+//  Copyright © 2018 OneAlon. All rights reserved.
 //
 
 import UIKit
+
+protocol YAPersonProtocol {
+    
+    // MARK: - 属性
+    // 协议的属性: 协议要求一个属性必须明确指定是可读的或者可写的
+    var name: String { get set }
+    var readOnlyProperty: String { get }
+    
+    // MARK: - 方法
+    func personProtocolInstanceMethod()
+    static func personProtocolClassMethod()
+    
+}
 
 class YAPerson: NSObject , YAPersonProtocol {
     
@@ -18,10 +31,6 @@ class YAPerson: NSObject , YAPersonProtocol {
     // 初始化: 准备实例的过程, 这个过程里为每一个存储属性设置初始值并在新实例使用之前执行任何其他所必须的配置.
     init(withName name: String){
         self.name = name
-    }
-    
-    convenience init(withName name: String, testParam: String){
-        self.init(withName: name)
     }
     
     func personProtocolInstanceMethod() {
@@ -38,5 +47,4 @@ extension YAPerson: NSCopying {
     func copy(with zone: NSZone? = nil) -> Any {
         return YAPerson(withName: self.name)
     }
-    
 }
