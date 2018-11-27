@@ -12,6 +12,7 @@
 		8806464F219BF56F00767CBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8806464D219BF56F00767CBC /* Main.storyboard */; };
 		88064651219BF57100767CBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88064650219BF57100767CBC /* Assets.xcassets */; };
 		88064654219BF57100767CBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88064652219BF57100767CBC /* LaunchScreen.storyboard */; };
+		88AB7CB721AD448A0073D00F /* YABuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AB7CB621AD448A0073D00F /* YABuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		88064650219BF57100767CBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88064653219BF57100767CBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88064655219BF57100767CBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88AB7CB621AD448A0073D00F /* YABuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YABuilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				88064649219BF56F00767CBC /* AppDelegate.swift */,
 				8806464B219BF56F00767CBC /* ViewController.swift */,
+				88AB7CB621AD448A0073D00F /* YABuilder.swift */,
 				8806464D219BF56F00767CBC /* Main.storyboard */,
 				88064650219BF57100767CBC /* Assets.xcassets */,
 				88064652219BF57100767CBC /* LaunchScreen.storyboard */,
@@ -90,9 +93,10 @@
 		8806463E219BF56F00767CBC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = YA;
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
-				ORGANIZATIONNAME = xygj;
+				ORGANIZATIONNAME = OneAlon;
 				TargetAttributes = {
 					88064645219BF56F00767CBC = {
 						CreatedOnToolsVersion = 10.1;
@@ -137,6 +141,7 @@
 			files = (
 				8806464C219BF56F00767CBC /* ViewController.swift in Sources */,
 				8806464A219BF56F00767CBC /* AppDelegate.swift in Sources */,
+				88AB7CB721AD448A0073D00F /* YABuilder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
