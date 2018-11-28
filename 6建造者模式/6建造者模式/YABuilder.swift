@@ -17,6 +17,14 @@ class YAActor: NSObject {
     var costume: String = "" // 服装
     var hairstyle: String = "" // 发型
     
+    // 将构建方法放到抽象者类中, 省略构建者类
+    class func construct(builder: YABuilder) -> YAActor {
+        builder.buildType()
+        builder.buildSex()
+        let actor = builder.createActor()
+        return actor
+    }
+    
 }
 
 
@@ -54,6 +62,14 @@ class YAHeroBuilder: YABuilder {
 // 指挥者
 class YAActorController: NSObject {
     class func construct(builder: YABuilder) -> YAActor {
+        builder.buildType()
+        builder.buildSex()
+        let actor = builder.createActor()
+        return actor
+    }
+    
+    class func constructHexo() -> YAActor {
+        let builder = YAHeroBuilder()
         builder.buildType()
         builder.buildSex()
         let actor = builder.createActor()
