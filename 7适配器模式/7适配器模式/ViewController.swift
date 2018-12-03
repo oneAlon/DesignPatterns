@@ -17,6 +17,13 @@ import UIKit
     由于某些原因，现在Sunny公司开发人员已经找不到该算法库的源代码，无法直接通过复制和粘贴操作来重用其中的代码；部分开发人员已经针对ScoreOperation接口编程，如果再要求对该接口进行修改或要求大家直接使用QuickSort类和BinarySearch类将导致大量代码需要修改。
     Sunny软件公司开发人员面对这个没有源码的算法库，遇到一个幸福而又烦恼的问题：如何在既不修改现有接口又不需要任何算法库代码的基础上能够实现算法库的重用？
  
+ 适配器模式:
+    Target目标抽象类: 定义客户端需要的接口
+    Adapter适配器类: 适配器可以调用另外一个接口, 作为一个转换器, 对Target和Adaptee进行适配.
+    Adaptee适配者类: 被适配的角色
+ 
+ UML图:
+ 
  
  
  
@@ -31,6 +38,7 @@ class ViewController: UIViewController {
         let scores = [10, 15, 30, 60, 99]
         let score = 60
         
+        // java中可以通过反射机制, 配置xml文件获取类名, 所以不需要修改客户端代码只需要x修改配置文件就可以
         let scoreOperation = AdapterScoreOperation()
         scoreOperation.sort(scores)
         scoreOperation.search(scores, score: score)
@@ -43,11 +51,11 @@ class AdapterScoreOperation: ScoreOperation {
     
     let quickSort = QuickSort()
     let binarySearch = BinarySearch()
-    
+
     override func sort(_ scores: [Int]) {
         quickSort.quickSort(scores)
     }
-    
+
     override func search(_ scores: [Int], score: Int) {
         binarySearch.binarySearch(scores, score: score)
     }
@@ -68,14 +76,14 @@ class ScoreOperation {
 // 要被适配的对象
 class QuickSort {
     func quickSort(_ scores: [Int]) {
-        
+        print("算法库中的quickSort\(scores)")
     }
 }
 
 // 要被适配的对象
 class BinarySearch {
     func binarySearch(_ scores: [Int], score: Int) {
-        
+        print("算法库中的binarySearch\(score)")
     }
 }
 
