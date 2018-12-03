@@ -1313,6 +1313,34 @@
 							},
 							"lineStyle": 1,
 							"points": "465:492;511:504"
+						},
+						{
+							"_type": "UMLNoteView",
+							"_id": "AAAAAAFnc6YrKc6r7s4=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"left": 72,
+							"top": 600,
+							"width": 100,
+							"height": 50
+						},
+						{
+							"_type": "UMLNoteLinkView",
+							"_id": "AAAAAAFnc6YrR86x2j8=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFnc6YrKc6r7s4="
+							},
+							"tail": {
+								"$ref": "AAAAAAFnc6TPVc1r38o="
+							},
+							"lineStyle": 1,
+							"points": "116:544;119:599"
 						}
 					]
 				},
