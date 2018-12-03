@@ -8,6 +8,7 @@
 
 import Foundation
 
+// 图像文件(叶子)
 class ImageFile {
     
     var name: String
@@ -22,6 +23,7 @@ class ImageFile {
     
 }
 
+// 文本文件(叶子)
 class TextFile {
     
     var name: String
@@ -35,6 +37,7 @@ class TextFile {
     }
 }
 
+// 文件夹(容器)
 class Folder {
     
     var imageList: [ImageFile] = [ImageFile]()
