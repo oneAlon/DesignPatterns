@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		882B993821B62DBA00F419A9 /* YAComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882B993721B62DBA00F419A9 /* YAComponent.swift */; };
+		882B993A21B62DCC00F419A9 /* YADecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882B993921B62DCC00F419A9 /* YADecorator.swift */; };
 		88AFB7B321A3A73800C2F380 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AFB7B221A3A73800C2F380 /* AppDelegate.swift */; };
 		88AFB7B521A3A73800C2F380 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AFB7B421A3A73800C2F380 /* ViewController.swift */; };
 		88AFB7B821A3A73800C2F380 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88AFB7B621A3A73800C2F380 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		882B993721B62DBA00F419A9 /* YAComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YAComponent.swift; sourceTree = "<group>"; };
+		882B993921B62DCC00F419A9 /* YADecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YADecorator.swift; sourceTree = "<group>"; };
 		88AFB7AF21A3A73800C2F380 /* 10装饰模式.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "10装饰模式.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		88AFB7B221A3A73800C2F380 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88AFB7B421A3A73800C2F380 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +60,8 @@
 			children = (
 				88AFB7B221A3A73800C2F380 /* AppDelegate.swift */,
 				88AFB7B421A3A73800C2F380 /* ViewController.swift */,
+				882B993721B62DBA00F419A9 /* YAComponent.swift */,
+				882B993921B62DCC00F419A9 /* YADecorator.swift */,
 				88AFB7B621A3A73800C2F380 /* Main.storyboard */,
 				88AFB7B921A3A73B00C2F380 /* Assets.xcassets */,
 				88AFB7BB21A3A73B00C2F380 /* LaunchScreen.storyboard */,
@@ -135,6 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				882B993821B62DBA00F419A9 /* YAComponent.swift in Sources */,
+				882B993A21B62DCC00F419A9 /* YADecorator.swift in Sources */,
 				88AFB7B521A3A73800C2F380 /* ViewController.swift in Sources */,
 				88AFB7B321A3A73800C2F380 /* AppDelegate.swift in Sources */,
 			);
