@@ -18,6 +18,17 @@ import UIKit
  
  观察者模式:
     包含观察者和观察目标两个层级结构
+    Subject观察目标: 被观察的目标, 当状态发生改变时, 向观察者发送通知
+    Observer观察者:
+ 
+ iOS中的通知就是使用观察者模式实现的:
+    NSNotificationCenter是被观察者, 猜测它内部有一个数组对observer的引用, 当执行post方法时, 就遍历数组获取observer, 调用observer对应的selector
+    observer是观察者
+ 
+ iOS中的KVO也是通过观察者模式实现的:
+    具体对象(调用addObserver方法的)是被观察者, 当属性的setter方法被调用时, 就通知观察者
+    observer是观察者
+ 
  
  */
 
@@ -25,7 +36,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+    
         let center: AllyControlCenter = AllyControlCenter(allyName: "金庸")
         
         print("----------------------------")
@@ -34,7 +45,7 @@ class ViewController: UIViewController {
         let player2 = Player("小龙女")
         let player3 = Player("张无忌")
         let player4 = Player("段誉")
-        
+
         center.join(player: player1)
         center.join(player: player2)
         center.join(player: player3)
@@ -47,6 +58,12 @@ class ViewController: UIViewController {
         print("----------------------------")
         
         player1.beAttacted(center: center)
+        
+        
+        //        NotificationCenter.default.addObserver(<#T##observer: Any##Any#>, selector: <#T##Selector#>, name: <#T##NSNotification.Name?#>, object: <#T##Any?#>)
+        //        NotificationCenter.default.post(name: <#T##NSNotification.Name#>, object: <#T##Any?#>)
+        
+//        player1.addObserver(<#T##observer: NSObject##NSObject#>, forKeyPath: <#T##String#>, options: <#T##NSKeyValueObservingOptions#>, context: <#T##UnsafeMutableRawPointer?#>)
         
     }
 
