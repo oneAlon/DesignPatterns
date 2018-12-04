@@ -8,6 +8,19 @@
 
 import UIKit
 
+/*
+ 
+ 实现撤销功能-备忘录模式
+    在不破坏封装的前提下，捕获一个对象的内部状态，并在该对象之外保存这个状态，这样可以在以后将对象恢复到原先保存的状态。它是一种对象行为型模式，其别名为Token。
+ 
+ Originator原发器: 是一个普通类(需要保存的对象)
+ Memento备忘录:
+ Caretaker负责人: 管理类, 负责保存备忘录, 但是不能对备忘录做修改操作, 只负责存储对象.
+ 
+ 使用场景:
+    需要保存一个对象在某一时刻的状态.
+ */
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {

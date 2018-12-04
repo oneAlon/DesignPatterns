@@ -37,6 +37,13 @@ import UIKit
  不能被继承的的情况:
     1. 继承以后产生大量的子类
     2. 类为final
+ 
+ 装饰模式和继承最大的区别:
+    继承, 子类可以修改父类的行为.
+ 
+ 在iOS中如何使用装饰模式?
+    OC中是category
+    swift中是extension
  */
 
 class ViewController: UIViewController {
