@@ -8,13 +8,22 @@
 
 import UIKit
 
+/*
+ if-else
+ 输入是固定的格式, 输出也是固定的格式.
+ 不一样的算法, 将算法封装起来.
+ */
+
+enum sss {
+    
+}
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
 
 }
 
