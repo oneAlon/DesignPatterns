@@ -13,19 +13,60 @@ import UIKit
  输入是固定的格式, 输出也是固定的格式.
  不一样的算法, 将算法封装起来.
  
- 在软件系统中，有许多算法可以实现某一功能，如查找、排序等，一种常用的方法是硬编码(Hard Coding)在一个类中，如需要提供多种查找算法，可以将这些算法写到一个类中，在该类中提供多个方法，每一个方法对应一个具体的查找算法；当然也可以将这些查找算法封装在一个统一的方法中，通过if…else…等条件判断语句来进行选择。这两种实现方法我们都可以称之为硬编码，如果需要增加一种新的查找算法，需要修改封装算法类的源代码；更换查找算法，也需要修改客户端调用代码。在这个算法类中封装了大量查找算法，该类代码将较复杂，维护较为困难。
+ 实现某一个功能, 有多种途径(算法), 此时可以使用策略设计模式实现灵活的选择解决途径.
+ 
+       Sunny软件公司为某电影院开发了一套影院售票系统，在该系统中需要为不同类型的用户提供不同的电影票打折方式，具体打折方案如下：
+             (1) 学生凭学生证可享受票价8折优惠；
+             (2) 年龄在10周岁及以下的儿童可享受每张票减免10元的优惠（原始票价需大于等于20元）；
+             (3) 影院VIP用户除享受票价半价优惠外还可进行积分，积分累计到一定额度可换取电影院赠送的奖品。
+ 
+ 
  
  */
-
-enum sss {
-    
-}
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        sellNewMovieTicket()
+    }
+    
+    func sellNewMovieTicket() {
+        let newMovieTicket = YANewMovieTicket.init()
+        newMovieTicket.price = 100
+        print("折后价\(newMovieTicket.getMovieTicketPrice())")
+        
+        let newStudentMovieTicket = YANewStudentMovieTicket.init()
+        newStudentMovieTicket.price = 100
+        print("折后价\(newStudentMovieTicket.getMovieTicketPrice())")
+        
+        let newChildMovieTicket = YANewChildrenMovieTicket.init()
+        newChildMovieTicket.price = 100
+        print("折后价\(newChildMovieTicket.getMovieTicketPrice())")
+    
+    }
+    
+    /*
+     存在的问题:
+        1. getMovieTicketPrice方法的工作量太大
+        2. 如果需要增加新的售票规则, 必须修改YAOldMovieTicket中的代码, 不符合开闭原则
+        3. 算法的复用性差
+     */
+    func sellOldMovieTicket() {
+        let oldMovieTicket = YAOldMovieTicket.init()
+        oldMovieTicket.price = 100
+        
+        // 学生票
+        oldMovieTicket.type = "student"
+        print("折后价\(oldMovieTicket.getMovieTicketPrice())")
+        
+        // 儿童票
+        oldMovieTicket.type = "children"
+        print("折后价\(oldMovieTicket.getMovieTicketPrice())")
+        
+        // vip
+        oldMovieTicket.type = "vip"
+        print("折后价\(oldMovieTicket.getMovieTicketPrice())")
     }
 
 }

@@ -1,0 +1,1268 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "策略模式",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFF+qBtyKM79qY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Main",
+					"defaultDiagram": true,
+					"ownedViews": [
+						{
+							"_type": "UMLClassView",
+							"_id": "AAAAAAFqU4Npep507kE=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"model": {
+								"$ref": "AAAAAAFqU4IygJ5myy0="
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAFqU4Npep512RI=",
+									"_parent": {
+										"$ref": "AAAAAAFqU4Npep507kE="
+									},
+									"model": {
+										"$ref": "AAAAAAFqU4IygJ5myy0="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFqU4Npep52Y/w=",
+											"_parent": {
+												"$ref": "AAAAAAFqU4Npep512RI="
+											},
+											"font": "Arial;13;0",
+											"left": 205,
+											"top": 445,
+											"width": 199.265625,
+											"height": 13,
+											"text": "«学生票价»"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFqU4Npe553W2U=",
+											"_parent": {
+												"$ref": "AAAAAAFqU4Npep512RI="
+											},
+											"font": "Arial;13;1",
+											"left": 205,
+											"top": 460,
+											"width": 199.265625,
+											"height": 13,
+											"text": "YAStudentMovieTicket"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFqU4Npe554ISA=",
+											"_parent": {
+												"$ref": "AAAAAAFqU4Npep512RI="
+											},
+											"font": "Arial;13;0",
+											"left": 205,
+											"top": 475,
+											"width": 199.265625,
+											"height": 13,
+											"text": "(from 策略模式)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFqU4Npe5559QA=",
+											"_parent": {
+												"$ref": "AAAAAAFqU4Npep512RI="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": -48,
+											"top": 106,
+											"height": 13,
+											"horizontalAlignment": 1
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 200,
+									"top": 440,
+									"width": 209.265625,
+									"height": 53,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAFqU4Npep52Y/w="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAFqU4Npe553W2U="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAFqU4Npe554ISA="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAFqU4Npe5559QA="
+									}
+								},
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAFqU4Npe556mQE=",
+									"_parent": {
+										"$ref": "AAAAAAFqU4Npep507kE="
+									},
+									"model": {
+										"$ref": "AAAAAAFqU4IygJ5myy0="
+									},
+									"font": "Arial;13;0",
+									"left": 200,
+									"top": 493,
+									"width": 209.265625,
+									"height": 10
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAFqU4Npe557DAw=",
+									"_parent": {
+										"$ref": "AAAAAAFqU4Npep507kE="
+									},
+									"model": {
+										"$ref": "AAAAAAFqU4IygJ5myy0="
+									},
+									"subViews": [
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFqU5s37aBHY+A=",
+											"_parent": {
+												"$ref": "AAAAAAFqU4Npe557DAw="
+											},
+											"model": {
+												"$ref": "AAAAAAFqU5s30KBERaE="
+											},
+											"font": "Arial;13;0",
+											"left": 205,
+											"top": 508,
+											"width": 199.265625,
+											"height": 13,
+											"text": "«获取票价»+getMovieTicketPrice()",
+											"horizontalAlignment": 0
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 200,
+									"top": 503,
+									"width": 209.265625,
+									"height": 23
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAFqU4Npe558nWQ=",
+									"_parent": {
+										"$ref": "AAAAAAFqU4Npep507kE="
+									},
+									"model": {
+										"$ref": "AAAAAAFqU4IygJ5myy0="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": -24,
+									"top": 53,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAFqU4Npe559Aj8=",
+									"_parent": {
+										"$ref": "AAAAAAFqU4Npep507kE="
+									},
+									"model": {
+										"$ref": "AAAAAAFqU4IygJ5myy0="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": -24,
+									"top": 53,
+									"width": 10,
+									"height": 10
+								}
+							],
+							"font": "Arial;13;0",
+							"containerChangeable": true,
+							"left": 200,
+							"top": 440,
+							"width": 209.265625,
+							"height": 86,
+							"showNamespace": true,
+							"nameCompartment": {
+								"$ref": "AAAAAAFqU4Npep512RI="
+							},
+							"attributeCompartment": {
+								"$ref": "AAAAAAFqU4Npe556mQE="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAFqU4Npe557DAw="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAFqU4Npe558nWQ="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAFqU4Npe559Aj8="
+							}
+						},
+						{
+							"_type": "UMLClassView",
+							"_id": "AAAAAAFqU4PJgJ6fung=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"model": {
+								"$ref": "AAAAAAFqU4JHdp5pw74="
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAFqU4PJgJ6gcls=",
+									"_parent": {
+										"$ref": "AAAAAAFqU4PJgJ6fung="
+									},
+									"model": {
+										"$ref": "AAAAAAFqU4JHdp5pw74="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFqU4PJgJ6hWys=",
+											"_parent": {
+												"$ref": "AAAAAAFqU4PJgJ6gcls="
+											},
+											"font": "Arial;13;0",
+											"left": 453,
+											"top": 445,
+											"width": 199.265625,
+											"height": 13,
+											"text": "«儿童票价»"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFqU4PJgJ6iCbQ=",
+											"_parent": {
+												"$ref": "AAAAAAFqU4PJgJ6gcls="
+											},
+											"font": "Arial;13;1",
+											"left": 453,
+											"top": 460,
+											"width": 199.265625,
+											"height": 13,
+											"text": "YAChildrenMovieTicket"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFqU4PJgJ6jdVc=",
+											"_parent": {
+												"$ref": "AAAAAAFqU4PJgJ6gcls="
+											},
+											"font": "Arial;13;0",
+											"left": 453,
+											"top": 475,
+											"width": 199.265625,
+											"height": 13,
+											"text": "(from 策略模式)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFqU4PJgJ6k40U=",
+											"_parent": {
+												"$ref": "AAAAAAFqU4PJgJ6gcls="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 6,
+											"top": -2,
+											"height": 13,
+											"horizontalAlignment": 1
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 448,
+									"top": 440,
+									"width": 209.265625,
+									"height": 53,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAFqU4PJgJ6hWys="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAFqU4PJgJ6iCbQ="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAFqU4PJgJ6jdVc="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAFqU4PJgJ6k40U="
+									}
+								},
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAFqU4PJgZ6l0bM=",
+									"_parent": {
+										"$ref": "AAAAAAFqU4PJgJ6fung="
+									},
+									"model": {
+										"$ref": "AAAAAAFqU4JHdp5pw74="
+									},
+									"font": "Arial;13;0",
+									"left": 448,
+									"top": 493,
+									"width": 209.265625,
+									"height": 10
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAFqU4PJgZ6muVE=",
+									"_parent": {
+										"$ref": "AAAAAAFqU4PJgJ6fung="
+									},
+									"model": {
+										"$ref": "AAAAAAFqU4JHdp5pw74="
+									},
+									"subViews": [
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFqU5t2haBPPIA=",
+											"_parent": {
+												"$ref": "AAAAAAFqU4PJgZ6muVE="
+											},
+											"model": {
+												"$ref": "AAAAAAFqU5t2ZqBMWfs="
+											},
+											"font": "Arial;13;0",
+											"left": 453,
+											"top": 508,
+											"width": 199.265625,
+											"height": 13,
+											"text": "«获取票价»+getMovieTicketPrice()",
+											"horizontalAlignment": 0
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 448,
+									"top": 503,
+									"width": 209.265625,
+									"height": 23
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAFqU4PJgZ6nt0Y=",
+									"_parent": {
+										"$ref": "AAAAAAFqU4PJgJ6fung="
+									},
+									"model": {
+										"$ref": "AAAAAAFqU4JHdp5pw74="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 3,
+									"top": -1,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAFqU4PJgZ6ojXE=",
+									"_parent": {
+										"$ref": "AAAAAAFqU4PJgJ6fung="
+									},
+									"model": {
+										"$ref": "AAAAAAFqU4JHdp5pw74="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 3,
+									"top": -1,
+									"width": 10,
+									"height": 10
+								}
+							],
+							"font": "Arial;13;0",
+							"containerChangeable": true,
+							"left": 448,
+							"top": 440,
+							"width": 209.265625,
+							"height": 86,
+							"showNamespace": true,
+							"nameCompartment": {
+								"$ref": "AAAAAAFqU4PJgJ6gcls="
+							},
+							"attributeCompartment": {
+								"$ref": "AAAAAAFqU4PJgZ6l0bM="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAFqU4PJgZ6muVE="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAFqU4PJgZ6nt0Y="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAFqU4PJgZ6ojXE="
+							}
+						},
+						{
+							"_type": "UMLClassView",
+							"_id": "AAAAAAFqU4PTpJ7GAGc=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"model": {
+								"$ref": "AAAAAAFqU4JTEp5seRs="
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAFqU4PTpJ7HDX0=",
+									"_parent": {
+										"$ref": "AAAAAAFqU4PTpJ7GAGc="
+									},
+									"model": {
+										"$ref": "AAAAAAFqU4JTEp5seRs="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFqU4PTpJ7I3hA=",
+											"_parent": {
+												"$ref": "AAAAAAFqU4PTpJ7HDX0="
+											},
+											"font": "Arial;13;0",
+											"left": 717,
+											"top": 445,
+											"width": 199.265625,
+											"height": 13,
+											"text": "«vip票价»"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFqU4PTpJ7Jeus=",
+											"_parent": {
+												"$ref": "AAAAAAFqU4PTpJ7HDX0="
+											},
+											"font": "Arial;13;1",
+											"left": 717,
+											"top": 460,
+											"width": 199.265625,
+											"height": 13,
+											"text": "YAVipMovieTicket"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFqU4PTpJ7Kmpo=",
+											"_parent": {
+												"$ref": "AAAAAAFqU4PTpJ7HDX0="
+											},
+											"font": "Arial;13;0",
+											"left": 717,
+											"top": 475,
+											"width": 199.265625,
+											"height": 13,
+											"text": "(from 策略模式)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFqU4PTpJ7L1gU=",
+											"_parent": {
+												"$ref": "AAAAAAFqU4PTpJ7HDX0="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": -50,
+											"top": -56,
+											"height": 13,
+											"horizontalAlignment": 1
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 712,
+									"top": 440,
+									"width": 209.265625,
+									"height": 53,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAFqU4PTpJ7I3hA="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAFqU4PTpJ7Jeus="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAFqU4PTpJ7Kmpo="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAFqU4PTpJ7L1gU="
+									}
+								},
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAFqU4PTpJ7MbfE=",
+									"_parent": {
+										"$ref": "AAAAAAFqU4PTpJ7GAGc="
+									},
+									"model": {
+										"$ref": "AAAAAAFqU4JTEp5seRs="
+									},
+									"font": "Arial;13;0",
+									"left": 712,
+									"top": 493,
+									"width": 209.265625,
+									"height": 10
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAFqU4PTpJ7N3HI=",
+									"_parent": {
+										"$ref": "AAAAAAFqU4PTpJ7GAGc="
+									},
+									"model": {
+										"$ref": "AAAAAAFqU4JTEp5seRs="
+									},
+									"subViews": [
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFqU5uyDaBXsck=",
+											"_parent": {
+												"$ref": "AAAAAAFqU4PTpJ7N3HI="
+											},
+											"model": {
+												"$ref": "AAAAAAFqU5ux8aBUkgU="
+											},
+											"font": "Arial;13;0",
+											"left": 717,
+											"top": 508,
+											"width": 199.265625,
+											"height": 13,
+											"text": "«获取票价»+getMovieTicketPrice()",
+											"horizontalAlignment": 0
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 712,
+									"top": 503,
+									"width": 209.265625,
+									"height": 23
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAFqU4PTpJ7OIK8=",
+									"_parent": {
+										"$ref": "AAAAAAFqU4PTpJ7GAGc="
+									},
+									"model": {
+										"$ref": "AAAAAAFqU4JTEp5seRs="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": -25,
+									"top": -28,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAFqU4PTpJ7PyD4=",
+									"_parent": {
+										"$ref": "AAAAAAFqU4PTpJ7GAGc="
+									},
+									"model": {
+										"$ref": "AAAAAAFqU4JTEp5seRs="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": -25,
+									"top": -28,
+									"width": 10,
+									"height": 10
+								}
+							],
+							"font": "Arial;13;0",
+							"containerChangeable": true,
+							"left": 712,
+							"top": 440,
+							"width": 209.265625,
+							"height": 86,
+							"showNamespace": true,
+							"nameCompartment": {
+								"$ref": "AAAAAAFqU4PTpJ7HDX0="
+							},
+							"attributeCompartment": {
+								"$ref": "AAAAAAFqU4PTpJ7MbfE="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAFqU4PTpJ7N3HI="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAFqU4PTpJ7OIK8="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAFqU4PTpJ7PyD4="
+							}
+						},
+						{
+							"_type": "UMLInterfaceView",
+							"_id": "AAAAAAFqU5kcs5/Fyac=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"model": {
+								"$ref": "AAAAAAFqU4DWGp43Wqw="
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAFqU5kcs5/GMLE=",
+									"_parent": {
+										"$ref": "AAAAAAFqU5kcs5/Fyac="
+									},
+									"model": {
+										"$ref": "AAAAAAFqU4DWGp43Wqw="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFqU5kcs5/HLsU=",
+											"_parent": {
+												"$ref": "AAAAAAFqU5kcs5/GMLE="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": -112,
+											"top": -110,
+											"width": 64.32080078125,
+											"height": 13,
+											"text": "«interface»"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFqU5kcs5/ItMQ=",
+											"_parent": {
+												"$ref": "AAAAAAFqU5kcs5/GMLE="
+											},
+											"font": "Arial;13;1",
+											"left": 485,
+											"top": 213,
+											"width": 132.8056640625,
+											"height": 13,
+											"text": "YAMovieTicket"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFqU5kcs5/JRks=",
+											"_parent": {
+												"$ref": "AAAAAAFqU5kcs5/GMLE="
+											},
+											"font": "Arial;13;0",
+											"left": 485,
+											"top": 228,
+											"width": 132.8056640625,
+											"height": 13,
+											"text": "(from 策略模式)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFqU5kcs5/KdRQ=",
+											"_parent": {
+												"$ref": "AAAAAAFqU5kcs5/GMLE="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": -112,
+											"top": -110,
+											"height": 13,
+											"horizontalAlignment": 1
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 480,
+									"top": 206,
+									"width": 142.8056640625,
+									"height": 40,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAFqU5kcs5/HLsU="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAFqU5kcs5/ItMQ="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAFqU5kcs5/JRks="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAFqU5kcs5/KdRQ="
+									}
+								},
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAFqU5kctJ/L8F0=",
+									"_parent": {
+										"$ref": "AAAAAAFqU5kcs5/Fyac="
+									},
+									"model": {
+										"$ref": "AAAAAAFqU4DWGp43Wqw="
+									},
+									"subViews": [
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAFqU5kc1J/rBIo=",
+											"_parent": {
+												"$ref": "AAAAAAFqU5kctJ/L8F0="
+											},
+											"model": {
+												"$ref": "AAAAAAFqU5g/l5+42KY="
+											},
+											"font": "Arial;13;0",
+											"left": 485,
+											"top": 251,
+											"width": 132.8056640625,
+											"height": 13,
+											"text": "+originalPrice",
+											"horizontalAlignment": 0
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 480,
+									"top": 246,
+									"width": 142.8056640625,
+									"height": 23
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAFqU5kctJ/MJtw=",
+									"_parent": {
+										"$ref": "AAAAAAFqU5kcs5/Fyac="
+									},
+									"model": {
+										"$ref": "AAAAAAFqU4DWGp43Wqw="
+									},
+									"subViews": [
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFqU5kc1J/uNUk=",
+											"_parent": {
+												"$ref": "AAAAAAFqU5kctJ/MJtw="
+											},
+											"model": {
+												"$ref": "AAAAAAFqU5hTeJ+7olQ="
+											},
+											"font": "Arial;13;0",
+											"left": 485,
+											"top": 274,
+											"width": 132.8056640625,
+											"height": 13,
+											"text": "+getMovieTicketPrice()",
+											"horizontalAlignment": 0
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 480,
+									"top": 269,
+									"width": 142.8056640625,
+									"height": 23
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAFqU5kctJ/Nj0E=",
+									"_parent": {
+										"$ref": "AAAAAAFqU5kcs5/Fyac="
+									},
+									"model": {
+										"$ref": "AAAAAAFqU4DWGp43Wqw="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": -56,
+									"top": -55,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAFqU5kctJ/Oiwg=",
+									"_parent": {
+										"$ref": "AAAAAAFqU5kcs5/Fyac="
+									},
+									"model": {
+										"$ref": "AAAAAAFqU4DWGp43Wqw="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": -56,
+									"top": -55,
+									"width": 10,
+									"height": 10
+								}
+							],
+							"font": "Arial;13;0",
+							"containerChangeable": true,
+							"left": 480,
+							"top": 168,
+							"width": 142.8056640625,
+							"height": 125,
+							"stereotypeDisplay": "icon",
+							"showNamespace": true,
+							"nameCompartment": {
+								"$ref": "AAAAAAFqU5kcs5/GMLE="
+							},
+							"attributeCompartment": {
+								"$ref": "AAAAAAFqU5kctJ/L8F0="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAFqU5kctJ/MJtw="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAFqU5kctJ/Nj0E="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAFqU5kctJ/Oiwg="
+							}
+						},
+						{
+							"_type": "UMLInterfaceRealizationView",
+							"_id": "AAAAAAFqU5oh0KAOURo=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"model": {
+								"$ref": "AAAAAAFqU5oh0KANRbU="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFqU5oh0KAP//U=",
+									"_parent": {
+										"$ref": "AAAAAAFqU5oh0KAOURo="
+									},
+									"model": {
+										"$ref": "AAAAAAFqU5oh0KANRbU="
+									},
+									"font": "Arial;13;0",
+									"left": 507,
+									"top": 316,
+									"width": 59.591796875,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFqU5oh0KAOURo="
+									},
+									"edgePosition": 1,
+									"text": "+实现接口"
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFqU5oh0KAQZTA=",
+									"_parent": {
+										"$ref": "AAAAAAFqU5oh0KAOURo="
+									},
+									"model": {
+										"$ref": "AAAAAAFqU5oh0KANRbU="
+									},
+									"visible": null,
+									"font": "Arial;13;0",
+									"left": 521,
+									"top": 316,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "AAAAAAFqU5oh0KAOURo="
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFqU5oh0KARsws=",
+									"_parent": {
+										"$ref": "AAAAAAFqU5oh0KAOURo="
+									},
+									"model": {
+										"$ref": "AAAAAAFqU5oh0KANRbU="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 565,
+									"top": 315,
+									"height": 13,
+									"alpha": -1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFqU5oh0KAOURo="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFqU5kcs5/Fyac="
+							},
+							"tail": {
+								"$ref": "AAAAAAFqU4PJgJ6fung="
+							},
+							"lineStyle": 1,
+							"points": "552:439;550.1792452830189:206",
+							"showVisibility": true,
+							"nameLabel": {
+								"$ref": "AAAAAAFqU5oh0KAP//U="
+							},
+							"stereotypeLabel": {
+								"$ref": "AAAAAAFqU5oh0KAQZTA="
+							},
+							"propertyLabel": {
+								"$ref": "AAAAAAFqU5oh0KARsws="
+							}
+						},
+						{
+							"_type": "UMLInterfaceRealizationView",
+							"_id": "AAAAAAFqU5q5YKAf86k=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"model": {
+								"$ref": "AAAAAAFqU5q5YKAeLmA="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFqU5q5YKAg6es=",
+									"_parent": {
+										"$ref": "AAAAAAFqU5q5YKAf86k="
+									},
+									"model": {
+										"$ref": "AAAAAAFqU5q5YKAeLmA="
+									},
+									"font": "Arial;13;0",
+									"left": 401,
+									"top": 306,
+									"width": 59.591796875,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFqU5q5YKAf86k="
+									},
+									"edgePosition": 1,
+									"text": "+实现接口"
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFqU5q5YKAhKro=",
+									"_parent": {
+										"$ref": "AAAAAAFqU5q5YKAf86k="
+									},
+									"model": {
+										"$ref": "AAAAAAFqU5q5YKAeLmA="
+									},
+									"visible": null,
+									"font": "Arial;13;0",
+									"left": 418,
+									"top": 296,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "AAAAAAFqU5q5YKAf86k="
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFqU5q5YKAill0=",
+									"_parent": {
+										"$ref": "AAAAAAFqU5q5YKAf86k="
+									},
+									"model": {
+										"$ref": "AAAAAAFqU5q5YKAeLmA="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 453,
+									"top": 325,
+									"height": 13,
+									"alpha": -1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFqU5q5YKAf86k="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFqU5kcs5/Fyac="
+							},
+							"tail": {
+								"$ref": "AAAAAAFqU4Npep507kE="
+							},
+							"lineStyle": 1,
+							"points": "346:439;539.066037735849:206",
+							"showVisibility": true,
+							"nameLabel": {
+								"$ref": "AAAAAAFqU5q5YKAg6es="
+							},
+							"stereotypeLabel": {
+								"$ref": "AAAAAAFqU5q5YKAhKro="
+							},
+							"propertyLabel": {
+								"$ref": "AAAAAAFqU5q5YKAill0="
+							}
+						},
+						{
+							"_type": "UMLInterfaceRealizationView",
+							"_id": "AAAAAAFqU5rxlqAySBc=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"model": {
+								"$ref": "AAAAAAFqU5rxlqAxhUo="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFqU5rxlqAzarE=",
+									"_parent": {
+										"$ref": "AAAAAAFqU5rxlqAySBc="
+									},
+									"model": {
+										"$ref": "AAAAAAFqU5rxlqAxhUo="
+									},
+									"font": "Arial;13;0",
+									"left": 625,
+									"top": 326,
+									"width": 59.591796875,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFqU5rxlqAySBc="
+									},
+									"edgePosition": 1,
+									"text": "+实现接口"
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFqU5rxl6A0Hbw=",
+									"_parent": {
+										"$ref": "AAAAAAFqU5rxlqAySBc="
+									},
+									"model": {
+										"$ref": "AAAAAAFqU5rxlqAxhUo="
+									},
+									"visible": null,
+									"font": "Arial;13;0",
+									"left": 643,
+									"top": 336,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "AAAAAAFqU5rxlqAySBc="
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFqU5rxl6A1gNs=",
+									"_parent": {
+										"$ref": "AAAAAAFqU5rxlqAySBc="
+									},
+									"model": {
+										"$ref": "AAAAAAFqU5rxlqAxhUo="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 677,
+									"top": 305,
+									"height": 13,
+									"alpha": -1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFqU5rxlqAySBc="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFqU5kcs5/Fyac="
+							},
+							"tail": {
+								"$ref": "AAAAAAFqU4PTpJ7GAGc="
+							},
+							"lineStyle": 1,
+							"points": "771:439;562.0094339622641:206",
+							"showVisibility": true,
+							"nameLabel": {
+								"$ref": "AAAAAAFqU5rxlqAzarE="
+							},
+							"stereotypeLabel": {
+								"$ref": "AAAAAAFqU5rxl6A0Hbw="
+							},
+							"propertyLabel": {
+								"$ref": "AAAAAAFqU5rxl6A1gNs="
+							}
+						}
+					]
+				},
+				{
+					"_type": "UMLModel",
+					"_id": "AAAAAAFqU4Cmxp4ziK4=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "策略模式",
+					"ownedElements": [
+						{
+							"_type": "UMLInterface",
+							"_id": "AAAAAAFqU4DWGp43Wqw=",
+							"_parent": {
+								"$ref": "AAAAAAFqU4Cmxp4ziK4="
+							},
+							"name": "YAMovieTicket",
+							"stereotype": "",
+							"attributes": [
+								{
+									"_type": "UMLAttribute",
+									"_id": "AAAAAAFqU5g/l5+42KY=",
+									"_parent": {
+										"$ref": "AAAAAAFqU4DWGp43Wqw="
+									},
+									"name": "originalPrice",
+									"stereotype": "原始票价",
+									"type": ""
+								}
+							],
+							"operations": [
+								{
+									"_type": "UMLOperation",
+									"_id": "AAAAAAFqU5hTeJ+7olQ=",
+									"_parent": {
+										"$ref": "AAAAAAFqU4DWGp43Wqw="
+									},
+									"name": "getMovieTicketPrice",
+									"stereotype": "获取票价"
+								}
+							]
+						},
+						{
+							"_type": "UMLClass",
+							"_id": "AAAAAAFqU4IygJ5myy0=",
+							"_parent": {
+								"$ref": "AAAAAAFqU4Cmxp4ziK4="
+							},
+							"name": "YAStudentMovieTicket",
+							"ownedElements": [
+								{
+									"_type": "UMLInterfaceRealization",
+									"_id": "AAAAAAFqU5q5YKAeLmA=",
+									"_parent": {
+										"$ref": "AAAAAAFqU4IygJ5myy0="
+									},
+									"name": "实现接口",
+									"source": {
+										"$ref": "AAAAAAFqU4IygJ5myy0="
+									},
+									"target": {
+										"$ref": "AAAAAAFqU4DWGp43Wqw="
+									}
+								}
+							],
+							"stereotype": "学生票价",
+							"operations": [
+								{
+									"_type": "UMLOperation",
+									"_id": "AAAAAAFqU5s30KBERaE=",
+									"_parent": {
+										"$ref": "AAAAAAFqU4IygJ5myy0="
+									},
+									"name": "getMovieTicketPrice",
+									"stereotype": "获取票价"
+								}
+							]
+						},
+						{
+							"_type": "UMLClass",
+							"_id": "AAAAAAFqU4JHdp5pw74=",
+							"_parent": {
+								"$ref": "AAAAAAFqU4Cmxp4ziK4="
+							},
+							"name": "YAChildrenMovieTicket",
+							"ownedElements": [
+								{
+									"_type": "UMLInterfaceRealization",
+									"_id": "AAAAAAFqU5oh0KANRbU=",
+									"_parent": {
+										"$ref": "AAAAAAFqU4JHdp5pw74="
+									},
+									"name": "实现接口",
+									"source": {
+										"$ref": "AAAAAAFqU4JHdp5pw74="
+									},
+									"target": {
+										"$ref": "AAAAAAFqU4DWGp43Wqw="
+									}
+								}
+							],
+							"stereotype": "儿童票价",
+							"operations": [
+								{
+									"_type": "UMLOperation",
+									"_id": "AAAAAAFqU5t2ZqBMWfs=",
+									"_parent": {
+										"$ref": "AAAAAAFqU4JHdp5pw74="
+									},
+									"name": "getMovieTicketPrice",
+									"stereotype": "获取票价"
+								}
+							]
+						},
+						{
+							"_type": "UMLClass",
+							"_id": "AAAAAAFqU4JTEp5seRs=",
+							"_parent": {
+								"$ref": "AAAAAAFqU4Cmxp4ziK4="
+							},
+							"name": "YAVipMovieTicket",
+							"ownedElements": [
+								{
+									"_type": "UMLInterfaceRealization",
+									"_id": "AAAAAAFqU5rxlqAxhUo=",
+									"_parent": {
+										"$ref": "AAAAAAFqU4JTEp5seRs="
+									},
+									"name": "实现接口",
+									"source": {
+										"$ref": "AAAAAAFqU4JTEp5seRs="
+									},
+									"target": {
+										"$ref": "AAAAAAFqU4DWGp43Wqw="
+									}
+								}
+							],
+							"stereotype": "vip票价",
+							"operations": [
+								{
+									"_type": "UMLOperation",
+									"_id": "AAAAAAFqU5ux8aBUkgU=",
+									"_parent": {
+										"$ref": "AAAAAAFqU4JTEp5seRs="
+									},
+									"name": "getMovieTicketPrice",
+									"stereotype": "获取票价"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

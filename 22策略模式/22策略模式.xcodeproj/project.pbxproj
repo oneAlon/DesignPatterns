@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		881AB13922719BCF00BA1BDC /* YAOldMovieTicket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881AB13822719BCF00BA1BDC /* YAOldMovieTicket.swift */; };
+		881AB13B2272A01800BA1BDC /* YANewMovieTicket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881AB13A2272A01800BA1BDC /* YANewMovieTicket.swift */; };
 		88AB7C6321ABE76F0073D00F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AB7C6221ABE76F0073D00F /* AppDelegate.swift */; };
 		88AB7C6521ABE76F0073D00F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AB7C6421ABE76F0073D00F /* ViewController.swift */; };
 		88AB7C6821ABE76F0073D00F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88AB7C6621ABE76F0073D00F /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		881AB13822719BCF00BA1BDC /* YAOldMovieTicket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YAOldMovieTicket.swift; sourceTree = "<group>"; };
+		881AB13A2272A01800BA1BDC /* YANewMovieTicket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YANewMovieTicket.swift; sourceTree = "<group>"; };
 		88AB7C5F21ABE76F0073D00F /* 22策略模式.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "22策略模式.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		88AB7C6221ABE76F0073D00F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88AB7C6421ABE76F0073D00F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +60,8 @@
 			children = (
 				88AB7C6221ABE76F0073D00F /* AppDelegate.swift */,
 				88AB7C6421ABE76F0073D00F /* ViewController.swift */,
+				881AB13A2272A01800BA1BDC /* YANewMovieTicket.swift */,
+				881AB13822719BCF00BA1BDC /* YAOldMovieTicket.swift */,
 				88AB7C6621ABE76F0073D00F /* Main.storyboard */,
 				88AB7C6921ABE7700073D00F /* Assets.xcassets */,
 				88AB7C6B21ABE7700073D00F /* LaunchScreen.storyboard */,
@@ -137,6 +143,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				88AB7C6521ABE76F0073D00F /* ViewController.swift in Sources */,
+				881AB13B2272A01800BA1BDC /* YANewMovieTicket.swift in Sources */,
+				881AB13922719BCF00BA1BDC /* YAOldMovieTicket.swift in Sources */,
 				88AB7C6321ABE76F0073D00F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
