@@ -19,6 +19,8 @@ class YANewFactory: NSObject {
         工厂类使用静态方法通过传入的参数创建不同的产品, 如果新加入产品, 就必须修改工厂类的源码, 违反了开闭原则.
         工厂类的职责很重, 如果工厂类不能正常工作, 整个系统都不能正常工作
         扩展困难
+        增加了系统中类的个数,增加了复杂度和理解难度
+        如果产品类型较多,工厂类中逻辑会更加复杂(if else等)
      */
     class func createChart(byType type: YAChartType) -> YANewChartProtocol {
         var chart: YANewChartProtocol
