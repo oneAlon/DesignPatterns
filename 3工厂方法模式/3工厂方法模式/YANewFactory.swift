@@ -31,6 +31,7 @@ protocol YANewFactoryProtocol {
     static func createChart() -> YANewChartProtocol
     
     // 有时候也可以隐藏工厂方法
+    // 子类工厂直接调用具体产品的方法,在客户端就直接调用该子类工厂的这个方法,不需要调用具体产品的方法
     static func displayChart()
 }
 
