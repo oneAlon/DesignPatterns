@@ -27,7 +27,7 @@ import UIKit
 
 /// 抽象类, 协议
 protocol YANewFactoryProtocol {
-    // 创建图表, 当客户端拿到d这个创建好的图表时是一个已经经过初始化配置的图表
+    // 创建图表, 当客户端拿到这个创建好的图表时是一个已经经过初始化配置的图表
     static func createChart() -> YANewChartProtocol
     
     // 有时候也可以隐藏工厂方法
