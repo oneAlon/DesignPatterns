@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28DAB1D622924D040065BAEA /* YAWeeklyLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DAB1D522924D040065BAEA /* YAWeeklyLog.swift */; };
+		28DAB1DA22927F220065BAEA /* YAWeeklyLogWithAttachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DAB1D922927F220065BAEA /* YAWeeklyLogWithAttachment.swift */; };
+		28DAB1DE229297A20065BAEA /* YAProtopeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DAB1DD229297A20065BAEA /* YAProtopeManager.swift */; };
+		28DAB1E22292985E0065BAEA /* YAOfficialDoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DAB1E12292985E0065BAEA /* YAOfficialDoc.swift */; };
 		88FEBCD121995BFF0037BB02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FEBCD021995BFF0037BB02 /* AppDelegate.swift */; };
 		88FEBCD321995BFF0037BB02 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FEBCD221995BFF0037BB02 /* ViewController.swift */; };
 		88FEBCD621995BFF0037BB02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88FEBCD421995BFF0037BB02 /* Main.storyboard */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		28DAB1D522924D040065BAEA /* YAWeeklyLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YAWeeklyLog.swift; sourceTree = "<group>"; };
+		28DAB1D922927F220065BAEA /* YAWeeklyLogWithAttachment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YAWeeklyLogWithAttachment.swift; sourceTree = "<group>"; };
+		28DAB1DD229297A20065BAEA /* YAProtopeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YAProtopeManager.swift; sourceTree = "<group>"; };
+		28DAB1E12292985E0065BAEA /* YAOfficialDoc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YAOfficialDoc.swift; sourceTree = "<group>"; };
 		88FEBCCD21995BFF0037BB02 /* 1原型模式.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "1原型模式.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		88FEBCD021995BFF0037BB02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88FEBCD221995BFF0037BB02 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +45,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		28DAB1DC229296E70065BAEA /* PrototypeManager */ = {
+			isa = PBXGroup;
+			children = (
+				28DAB1DD229297A20065BAEA /* YAProtopeManager.swift */,
+				28DAB1E12292985E0065BAEA /* YAOfficialDoc.swift */,
+			);
+			path = PrototypeManager;
+			sourceTree = "<group>";
+		};
 		88FEBCC421995BFF0037BB02 = {
 			isa = PBXGroup;
 			children = (
@@ -59,6 +76,9 @@
 				88FEBCD021995BFF0037BB02 /* AppDelegate.swift */,
 				88FEBCD221995BFF0037BB02 /* ViewController.swift */,
 				88FEBCE221995C4C0037BB02 /* YAPerson.swift */,
+				28DAB1D522924D040065BAEA /* YAWeeklyLog.swift */,
+				28DAB1D922927F220065BAEA /* YAWeeklyLogWithAttachment.swift */,
+				28DAB1DC229296E70065BAEA /* PrototypeManager */,
 				88FEBCD421995BFF0037BB02 /* Main.storyboard */,
 				88FEBCD721995C010037BB02 /* Assets.xcassets */,
 				88FEBCD921995C010037BB02 /* LaunchScreen.storyboard */,
@@ -140,6 +160,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				88FEBCE321995C4C0037BB02 /* YAPerson.swift in Sources */,
+				28DAB1D622924D040065BAEA /* YAWeeklyLog.swift in Sources */,
+				28DAB1E22292985E0065BAEA /* YAOfficialDoc.swift in Sources */,
+				28DAB1DA22927F220065BAEA /* YAWeeklyLogWithAttachment.swift in Sources */,
+				28DAB1DE229297A20065BAEA /* YAProtopeManager.swift in Sources */,
 				88FEBCD321995BFF0037BB02 /* ViewController.swift in Sources */,
 				88FEBCD121995BFF0037BB02 /* AppDelegate.swift in Sources */,
 			);
