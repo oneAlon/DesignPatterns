@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28180D25229535C200E6B535 /* YAVideoBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28180D24229535C200E6B535 /* YAVideoBuilder.swift */; };
 		8806464A219BF56F00767CBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88064649219BF56F00767CBC /* AppDelegate.swift */; };
 		8806464C219BF56F00767CBC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8806464B219BF56F00767CBC /* ViewController.swift */; };
 		8806464F219BF56F00767CBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8806464D219BF56F00767CBC /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		28180D24229535C200E6B535 /* YAVideoBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YAVideoBuilder.swift; sourceTree = "<group>"; };
 		88064646219BF56F00767CBC /* 6建造者模式.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "6建造者模式.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		88064649219BF56F00767CBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8806464B219BF56F00767CBC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				88064649219BF56F00767CBC /* AppDelegate.swift */,
 				8806464B219BF56F00767CBC /* ViewController.swift */,
 				88AB7CB621AD448A0073D00F /* YABuilder.swift */,
+				28180D24229535C200E6B535 /* YAVideoBuilder.swift */,
 				8806464D219BF56F00767CBC /* Main.storyboard */,
 				88064650219BF57100767CBC /* Assets.xcassets */,
 				88064652219BF57100767CBC /* LaunchScreen.storyboard */,
@@ -142,6 +145,7 @@
 				8806464C219BF56F00767CBC /* ViewController.swift in Sources */,
 				8806464A219BF56F00767CBC /* AppDelegate.swift in Sources */,
 				88AB7CB721AD448A0073D00F /* YABuilder.swift in Sources */,
+				28180D25229535C200E6B535 /* YAVideoBuilder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

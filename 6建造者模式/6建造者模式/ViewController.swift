@@ -63,8 +63,26 @@ class ViewController: UIViewController {
         print("性别:\(actor2.sex)")
         
         
+        // MARK: - 视频播放显示模式练习
+        print("\n**** 视频播放显示模式练习 ****\n")
+        // 完整模式
+        let allVideo = YAVideoController.construct(videoBuilder: YAAllVideoBuilder())
+        print("是否显示菜单:\(allVideo.menu)")
+        print("是否显示播放列表:\(allVideo.displayList)")
+        print("是否显示主窗口:\(allVideo.homeWindow)")
+        print("是否显示控制条:\(allVideo.controlLine)")
+        print("是否显示收藏列表:\(allVideo.collectionList)\n")
+        
+        // 精简模式
+        let simpleVideo = YAVideoController.construct(videoBuilder: YASimpleVideoBuilder())
+        print("是否显示菜单:\(simpleVideo.menu)")
+        print("是否显示播放列表:\(simpleVideo.displayList)")
+        print("是否显示主窗口:\(simpleVideo.homeWindow)")
+        print("是否显示控制条:\(simpleVideo.controlLine)")
+        print("是否显示收藏列表:\(simpleVideo.collectionList)")
     }
-
-
 }
 
+extension ViewController {
+    
+}
